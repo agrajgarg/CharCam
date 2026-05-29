@@ -16,3 +16,7 @@ Camera access requires `https` or `localhost`. The Vite dev server uses localhos
 ```bash
 npm run build
 ```
+
+## Deployment
+
+Pushes to `main` deploy through GitHub Actions to S3 + CloudFront.
